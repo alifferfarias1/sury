@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    border: 2px double rgba(255, 255, 255, 0.604);
+    border: 1px double rgba(255, 255, 255, 0.475);
     width: 100%;
     min-height: 300px;
     max-height: 500px;
@@ -74,6 +74,7 @@ main {
     border-radius: 0px 0px 10px 10px;
     min-height: 1000px;
     max-height: 1800px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.504);
 }
 
 main h1{
@@ -95,4 +96,6 @@ main img {
     height: 250px;
     margin-left: 60px;
     border: 2px solid #ae2131;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.504);
+
 }
