@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Wix+Madefor+Display:wght@500;600;700&display=swap');
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(../background.jpg);
+
+}
+
+header {
+    border: 2px double rgba(255, 255, 255, 0.604);
+    width: 100%;
+    min-height: 260px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, black, rgb(72, 6, 6));
+}
+
+header img {
+    padding-top: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+header h1 {
+    color: rgb(244, 244, 244);
+    text-shadow: 1px 1px 1px black;
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+header small {
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #ae2131;
+    display: flex;
+    align-items: center;
+
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 15px;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    padding: 3px;
+    text-decoration: underline;
+    background-color: #e600608e;
+    color: black;
+   
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    border-radius: 0px 0px 10px 10px;
+    min-height: 800px;
+    max-height: 1500px;
+}
+
+main h1{
+    font-family: 'Wix Madefor Display', sans-serif;
+
+}
+
+main p {
+    text-indent: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+main img {
+    width: 280px;
+    height: 250px;
+    margin-left: 80px;
+    border: 2px solid #ae2131;
+}
