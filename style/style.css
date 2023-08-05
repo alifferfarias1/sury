@@ -95,9 +95,10 @@ main p {
 main>div>img {
     width: 70%;
     height: 90%;
-    border: 2px solid #ffffff;
+    border: 2px solid #00000079;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.504);
     margin:auto;
+    border-radius: 10px;
 
 
 }
