@@ -6,6 +6,9 @@ body {
     margin: 0;
     background-image: url(../background.jpg);
 
+    background-repeat: repeat;
+    background-size:contain;
+
 }
 
 header {
@@ -93,8 +96,8 @@ main p {
 }
 
 main>div>img {
-    width: 70%;
-    height: 90%;
+    width: 80%;
+    height: 95%;
     border: 2px solid #00000079;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.504);
     margin:auto;
