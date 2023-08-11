@@ -1,7 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
-   
+    background-image: url(../background.jpg);
+    background-position: center center;
+    background-size: cover;
+
 }
 
 nav {
@@ -10,10 +13,11 @@ nav {
     background-color: #ae2131;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 
 }
 
-nav a{
+nav a {
     color: aliceblue;
     text-decoration: none;
     padding-right: 15px;
@@ -22,11 +26,39 @@ nav a{
     border-radius: 5px;
 }
 
-nav a:hover{
+nav a:hover {
     padding: 3px;
     text-decoration: underline;
     background-color: #e600608e;
     color: black;
-   
+
 }
 
+section {
+    width: 100%;
+    height: 60%;
+    background-color: #ae2131;
+
+}
+
+section div {
+   width: 30%;
+   height: 7%;
+   background-color: #e600608e;
+   border-radius: 5px;
+   margin-left: 30px;
+}
+
+section p{
+    margin-left: 40px;
+    font: bold normal 1em Arial;
+    color: white;
+
+}
+
+section img {
+ 
+    width: 250px;
+    margin-left: 80px;
+    height: 350px;
+}
