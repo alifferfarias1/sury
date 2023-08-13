@@ -56,8 +56,6 @@ main section {
 
 
 .titulo {
-    position: relative;
-    top: 20px;
     padding: 10px;
     color: rgb(0, 0, 0);
     height: 10vh;
@@ -73,8 +71,7 @@ main section {
     max-height: 350px;
     border-radius: 15px;
     transition: transform 1s ease;
-    top: 50px;
-    left: 10px;
+
 }
 
 
