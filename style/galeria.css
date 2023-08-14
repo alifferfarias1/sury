@@ -34,49 +34,47 @@ nav a:hover {
     color: black;
 }
 
-main {
-    width: 90%;
-    height: 99vh;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-
-
-}
-
-main section {
-    padding-left: 50px;
-  
-    margin-left: 30px;
-    border-radius: 5px;
-    background-color: #ae2131;
-    width: 280px;
-    height: 470px;
-
+main{
+    height: 100%;
+    background-image: url(../imgs/backgroundraposa.jpg);
 }
 
 
-.titulo {
-    padding: 10px;
+ main>section{
     color: rgb(0, 0, 0);
-    height: 10vh;
-    width: 60vh;
-    font-size: 1.3em;
-}
+    height: 70vh;
+    width: 290px;
+    background-image: linear-gradient(to left, rgb(255, 255, 255), #b699e4);
+    margin: 30px;
+    border-radius: 20px;
+   }
+   
 
-.imgs {
-    position: relative;
-    min-width: 190px;
-    min-height: 220px;
-    max-width: 300px;
+   main img{
+    justify-content: center;
+   }
+
+
+
+
+.imgs{
+    min-width: 200px;
+    min-height: 230px;
+    max-width: 320px;
     max-height: 350px;
-    border-radius: 15px;
+    border-radius: 12px;
     transition: transform 1s ease;
 
-}
 
+}
 
 
 .imgs:hover {
-    transform: scale(1.2); /* Amplia a imagem em 10% ao passar o mouse */
+    transform: scale(1.1); /* Amplia a imagem em 10% ao passar o mouse */
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 320px;
+    margin: 10px;
+    
 
 }
