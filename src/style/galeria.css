@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../background.jpg);
+    background-image: url(../imgs/background.jpg);
     background-position: center center;
     background-size: cover;
 
@@ -70,8 +70,6 @@ main{
 .imgs:hover {
     transform: scale(1.1); /* Amplia a imagem em 10% ao passar o mouse */
     border-radius: 20px;
-    max-width: 300px;
-    max-height: 320px;
     margin: 5px;
     padding: 5px;
     
