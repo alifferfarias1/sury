@@ -12,7 +12,8 @@ body {
 }
 
 header {
-    border: 1px double rgba(255, 255, 255, 0.475);
+   
+
     width: 100%;
     min-height: 300px;
     max-height: 500px;
@@ -46,6 +47,7 @@ nav {
     background-color: #ae2131;
     display: flex;
     align-items: center;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.468);
 
 }
 
