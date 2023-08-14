@@ -42,6 +42,8 @@ main{
 
  main>section{
     color: rgb(0, 0, 0);
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
     height: 70vh;
     width: 290px;
     background-image: linear-gradient(to top, rgb(255, 255, 255), #b699e4);
