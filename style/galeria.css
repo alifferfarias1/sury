@@ -44,7 +44,7 @@ main{
     color: rgb(0, 0, 0);
     height: 70vh;
     width: 290px;
-    background-image: linear-gradient(to left, rgb(255, 255, 255), #b699e4);
+    background-image: linear-gradient(to top, rgb(255, 255, 255), #b699e4);
     margin: 30px;
     border-radius: 20px;
    }
@@ -58,10 +58,7 @@ main{
 
 
 .imgs{
-    min-width: 200px;
-    min-height: 230px;
-    max-width: 320px;
-    max-height: 350px;
+    width: 100%;
     border-radius: 12px;
     transition: transform 1s ease;
 
