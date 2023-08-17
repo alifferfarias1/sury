@@ -58,7 +58,7 @@ main>section {
 }
 
 .sobreposicao {
-    background-color: rgba(89, 0, 0, 0.716);
+    background-color: rgba(0, 0, 0, 0.749);
     /* Um fundo branco semi-transparente */
     width: 1000px;
     height: 700px;
@@ -71,16 +71,6 @@ main>section:hover {
     height: 75%;
     margin: 32px;
 
-}
-
-#sessaoextra {
-    max-width: 100vh;
-    max-height: 100vh;
-    
-    background-color: white;
-    position: absolute;
-    display: flex;
-    align-items: center;
 }
 
 #fotosextras {
@@ -132,10 +122,11 @@ main>section:hover {
 
 
 @media (max-width: 768px) {
-    fotosextras {
+    #fotosextras {
         width: 50%;
         height: 500px;
-        margin-right: 100px;
+        left: 100px;
+       
         
     }
 
