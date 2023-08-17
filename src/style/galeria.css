@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-image: url(../imgs/background.jpg);
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
 
 
 }
@@ -34,16 +34,17 @@ nav a:hover {
     color: black;
 }
 
-main{
+main {
     height: 100%;
     background-image: url(../imgs/backgroundraposa.jpg);
+    background-position: right bottom;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 
- main>section{
+main>section {
     color: rgb(0, 0, 0);
     font-family: Helvetica, sans-serif;
     font-weight: bold;
@@ -53,15 +54,54 @@ main{
     box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.483);
     margin: 20px;
     border-radius: 20px;
-   }
-   
+    transition: transform 1.2s ease;
+}
+
+.sobreposicao {
+    background-color: rgba(89, 0, 0, 0.716);
+    /* Um fundo branco semi-transparente */
+    width: 1000px;
+    height: 700px;
+}
+
+main>section:hover {
+    transform: scale(1.1);
+    /* Amplia a imagem em 10% ao passar o mouse */
+    border-radius: 20px;
+    height: 75%;
+    margin: 32px;
+
+}
+
+#sessaoextra {
+    max-width: 100vh;
+    max-height: 100vh;
+    
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#fotosextras {
+    width: 80%;
+    height: 500px;
+    border-radius: 2px 2px 15px 15px;
+    margin: auto;
+    position: relative;
+    left: 100px;
+}
 
 
-.imgs{
-    width: 96%;
+
+
+
+.imgs {
+    width: 93%;
     height: 370px;
-    border-radius: 15px;
-    margin: 8px;
+    border-radius: 2px 2px 15px 15px;
+    margin: 10px;
+    padding-left: 4.4px;
     transition: transform 1s ease;
 
 
@@ -69,22 +109,34 @@ main{
 
 
 .imgs:hover {
-    transform: scale(1.1); /* Amplia a imagem em 10% ao passar o mouse */
+    transform: scale(1.1);
+    /* Amplia a imagem em 10% ao passar o mouse */
     border-radius: 20px;
-    margin-left: 9px;
-    
+    height: 360px;
+
 
 }
 
 @media (max-width: 700px) {
-    main>section>h5{
+    main>section>h5 {
         font-family: 13px;
     }
-  }
+}
 
-  @media (max-width: 700px) {
-    main>section{
+@media (max-width: 700px) {
+    main>section {
         width: 350px;
-       height: 69%;
+        height: 69%;
     }
-  }
+}
+
+
+@media (max-width: 768px) {
+    fotosextras {
+        width: 50%;
+        height: 500px;
+        margin-right: 100px;
+        
+    }
+
+}

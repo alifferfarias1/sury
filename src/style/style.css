@@ -98,7 +98,7 @@ main p {
 }
 
 main>div>img {
-    width: 80%;
+    width: 90%;
     height: 95%;
     border: 2px solid #00000079;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.504);
@@ -110,8 +110,8 @@ main>div>img {
 @media screen and (max-width: 768px) {
     
     main>div>img {
-        width: 300px;
-        height: 300px;
+        width: 65%;
+        height: 70%;
     }
   }
 
