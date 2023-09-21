@@ -41,6 +41,8 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border: 1px solid rgba(255, 255, 255, 0.727);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.779);
 }
 
 
@@ -58,10 +60,12 @@ main>section {
 }
 
 .sobreposicao {
-    background-color: rgba(0, 0, 0, 0.749);
+    background-color: rgb(168, 151, 175);
     /* Um fundo branco semi-transparente */
     width: 1000px;
     height: 700px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 main>section:hover {
@@ -130,4 +134,18 @@ main>section:hover {
         
     }
 
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer>p{
+    margin: auto;
 }

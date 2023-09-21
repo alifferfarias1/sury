@@ -125,3 +125,16 @@ main div {
     background-color: #ae2131;
     margin: 0px -10px -6px -6px;
 }
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+footer>p{
+    margin: auto;
+}
