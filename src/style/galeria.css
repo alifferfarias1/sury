@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Wix+Madefor+Display:wght@500;600;700&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -62,15 +65,24 @@ main>section {
 }
 
 .sobreposicao {
-    background-color: rgba(204, 40, 89, 0.800);
+    background-image: linear-gradient(to top, rgb(255, 255, 255), #b699e4);
+
     /* Um fundo branco semi-transparente */
     width: 900px;
-    height: 700px;
+    min-height: 700px;
+    max-height: 2400px;
     padding-top: 10px;
     margin-top: 30px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    box-shadow: inset 12px 9px 25px rgba(0, 0, 0, 0.656);
+    box-shadow:inset 9px 7px 47px rgba(0, 0, 0, 0.656);
+    padding-bottom: 30px;
+}
+
+.sobreposicao>h1{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    
 }
 
 main>section:hover {
@@ -81,12 +93,12 @@ main>section:hover {
 
 }
 
-#fotosextras {
+.fotosextras {
+    display: block;
     width: 80%;
     height: 500px;
     border-radius: 2px 2px 15px 15px;
     margin: auto;
-    position: relative;
     left: 100px;
 }
 
@@ -95,6 +107,8 @@ main>section:hover {
 
 
 .imgs {
+    display: block;
+    margin: auto;
     width: 93%;
     height: 370px;
     border-radius: 2px 2px 15px 15px;
