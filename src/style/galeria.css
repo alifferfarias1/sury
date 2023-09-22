@@ -14,7 +14,7 @@ nav {
     background-color: #ae2131;
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 
 }
 
@@ -35,14 +35,15 @@ nav a:hover {
 }
 
 main {
-    height: 100%;
+    height: 98%;
     background-image: url(../imgs/backgroundraposa.jpg);
     background-position: right bottom;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid rgba(255, 255, 255, 0.727);
+    border: 1px solid rgba(255, 255, 255, 0.527);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.779);
+    border-radius: 5px 5px 5px 5px;
 }
 
 
@@ -51,29 +52,32 @@ main>section {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     height: 70%;
-    width: 29%;
+    width: 30%;
     background-image: linear-gradient(to top, rgb(255, 255, 255), #b699e4);
     box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.483);
     margin: 20px;
+    margin-left: 135px;
     border-radius: 20px;
-    transition: transform 1.2s ease;
+    transition: transform 1.1s ease;
 }
 
 .sobreposicao {
-    background-color: rgb(168, 151, 175);
+    background-color: rgba(204, 40, 89, 0.800);
     /* Um fundo branco semi-transparente */
-    width: 1000px;
+    width: 900px;
     height: 700px;
+    padding-top: 10px;
+    margin-top: 30px;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    box-shadow: inset 12px 9px 25px rgba(0, 0, 0, 0.656);
 }
 
 main>section:hover {
     transform: scale(1.1);
     /* Amplia a imagem em 10% ao passar o mouse */
     border-radius: 20px;
-    height: 75%;
-    margin: 32px;
+    height: 90%;
 
 }
 
@@ -95,7 +99,7 @@ main>section:hover {
     height: 370px;
     border-radius: 2px 2px 15px 15px;
     margin: 10px;
-    padding-left: 4.4px;
+    padding-left: 4px;
     transition: transform 1s ease;
 
 
@@ -106,7 +110,9 @@ main>section:hover {
     transform: scale(1.1);
     /* Amplia a imagem em 10% ao passar o mouse */
     border-radius: 20px;
-    height: 360px;
+    height: 340px;
+    width: 92%;
+
 
 
 }
@@ -118,6 +124,12 @@ main>section:hover {
 }
 
 @media (max-width: 700px) {
+    main>section {
+        width: 350px;
+        height: 69%;
+    }
+}
+@media (max-width: 900px) {
     main>section {
         width: 350px;
         height: 69%;

@@ -79,8 +79,8 @@ main {
     padding: 3px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
     border-radius: 0px 0px 10px 10px;
-    min-height: 1200px;
-    max-height: 2800px;
+    min-height: 1150px;
+    max-height: 1800px;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.504);
 }
 
@@ -94,11 +94,11 @@ main p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
     line-height: 2em;
-    font-size: 16px;
+    font-size: 16.4px;
 }
 
 main>div>img {
-    width: 90%;
+    width: 92%;
     height: 95%;
     border: 2px solid #00000079;
     box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.504);
@@ -110,10 +110,11 @@ main>div>img {
 @media screen and (max-width: 768px) {
     
     main>div>img {
-        width: 65%;
-        height: 70%;
+        width: 80%;
+        height: 85%;
     }
   }
+
 
 main div {
     border: 2px double red;
@@ -123,7 +124,7 @@ main div {
     width: 100.9%;
     height: 499px;
     background-color: #ae2131;
-    margin: 0px -10px -6px -6px;
+    margin: 37px -10px -6px -6px;
 }
 
 footer {
