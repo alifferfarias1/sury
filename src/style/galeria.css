@@ -81,12 +81,12 @@ main>section {
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 300;
-    color: black;
+    color: rgb(37, 37, 42);
     
 }
 
 main>section:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     /* Amplia a imagem em 10% ao passar o mouse */
     border-radius: 20px;
     height: 90%;
@@ -113,7 +113,7 @@ main>section:hover {
     height: 370px;
     border-radius: 2px 2px 15px 15px;
     margin: 10px;
-    padding-left: 4px;
+    padding-right: 2px;
     transition: transform 1s ease;
 
 
@@ -121,7 +121,7 @@ main>section:hover {
 
 
 .imgs:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
     /* Amplia a imagem em 10% ao passar o mouse */
     border-radius: 20px;
     height: 340px;
@@ -149,12 +149,26 @@ main>section:hover {
         height: 69%;
     }
 }
+@media (max-width: 400px) {
+    main>section>.imgs {
+        width: 83%;
+        height: 320px;
 
+    }
+}
 
 @media (max-width: 768px) {
-    #fotosextras {
-        width: 50%;
-        height: 500px;
+    .fotosextras {
+        width: 70%;
+        height: 400px;
+        left: 100px;}
+       
+        
+    }
+@media (max-width: 408px) {
+    .fotosextras {
+        width: 62%;
+        height: 360px;
         left: 100px;
        
         
