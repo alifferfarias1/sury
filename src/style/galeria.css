@@ -109,11 +109,11 @@ main>section:hover {
 .imgs {
     display: block;
     margin: auto;
-    width: 93%;
-    height: 370px;
+    width: 92%;
+    height: 350px;
     border-radius: 2px 2px 15px 15px;
+    padding-left: 5px;
     margin: 10px;
-    padding-right: 2px;
     transition: transform 1s ease;
 
 
@@ -124,8 +124,10 @@ main>section:hover {
     transform: scale(1.06);
     /* Amplia a imagem em 10% ao passar o mouse */
     border-radius: 20px;
-    height: 340px;
-    width: 92%;
+    padding-left: 0px;
+    padding-right: 6px;
+    height: 338px;
+    width: 93%;
 
 
 
